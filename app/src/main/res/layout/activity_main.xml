@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:layout_alignParentTop="true"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="32dp"
+        android:paddingRight="20dp"
+        tools:context="com.krishna.learnabc.MainActivity"
+        android:background="#00ffffff">
+
+
+        <ImageButton
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:id="@+id/abcImageButton"
+            android:src="@drawable/alphabets_btn"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/numbersImageButton"
+            android:layout_toLeftOf="@+id/numbersImageButton"
+            android:background="#00ffffff" />
+
+        <ImageButton
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:id="@+id/numbersImageButton"
+            android:src="@drawable/numbers_btn"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#00ffffff" />
+
+        <ImageButton
+            android:id="@+id/randomAbcImageButton"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_below="@+id/abcImageButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="32dp"
+            android:background="#00ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/random_alphabets_btn" />
+
+        <ImageButton
+            android:id="@+id/days_btn"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_below="@+id/numbersImageButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="244dp"
+            android:layout_marginLeft="244dp"
+            android:layout_marginTop="32dp"
+            android:background="#00ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/week_days" />
+
+        <ImageButton
+            android:id="@+id/months_btn"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_below="@+id/numbersImageButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="378dp"
+            android:background="#00ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/months" />
+
+        <ImageButton
+            android:id="@+id/shapes_btn"
+            android:layout_width="154dp"
+            android:layout_height="143dp"
+            android:layout_below="@+id/numbersImageButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="211dp"
+            android:background="#00ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shape" />
+
+        <ImageButton
+            android:id="@+id/colors_btn"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_below="@+id/numbersImageButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="212dp"
+            android:background="#00ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/colors" />
+    </RelativeLayout>
+</ScrollView>

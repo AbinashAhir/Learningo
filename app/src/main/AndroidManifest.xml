@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learningo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Learningo">
+        <activity android:name=".activities.MonthActivity"></activity>
+        <activity android:name=".activities.ShapeActivity" />
+        <activity android:name=".activities.ColorActivity" />
+        <activity android:name=".activities.Days" />
+        <activity
+            android:name=".activities.RandomAlphabetActivity"
+            android:label="@string/title_activity_random_alphabet"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.NumbersActivity"
+            android:label="@string/title_activity_numbers"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.AlphabetActivity"
+            android:label="@string/title_activity_alphabet"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
